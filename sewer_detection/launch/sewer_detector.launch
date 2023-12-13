@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    
+    <!-- Load the camera parameters -->
+    <!--I think that such params are not useful at all-->
+    <rosparam command="load" file="$(find sewer_detection)/conf/params.yaml" />
+    <node pkg="sewer_detection" type="sewer_detector" name="sewer_detector" output="screen" />
+
+</launch>

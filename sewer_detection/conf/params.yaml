@@ -1,0 +1,10 @@
+img_tpoic: /iris/tracking_camera_45/image_raw
+ellipses_distance: 40
+min_itr: 40
+resize_scale_factor: 1
+cam_info_topic: /iris/tracking_camera_45/camera_info
+
+K_00: 139.1395614431696 
+K_02: 320.5
+K_12: 240.5
+K_11: 139.1395614431696
